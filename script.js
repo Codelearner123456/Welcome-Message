@@ -16,7 +16,7 @@ function buttonEvent(event) {
     }
 
     result.innerText = `Hi ${nameVal}! Welcome to ${cityVal}. Hope you enjoy ${hobbyVal} while you're here!`;
+    result.classList.add("show");
 
-    // 🔥 Make the form expand visually
     document.querySelector(".application").classList.add("active");
 }
