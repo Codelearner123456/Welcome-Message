@@ -15,7 +15,7 @@ function buttonEvent(event) {
         return;
     }
 
-    result.innerText = `Hi ${nameVal}! Welcome to ${cityVal}. Hope you enjoy ${hobbyVal} while you're here!`;
+    result.textContent = `Hi ${nameVal}! Welcome to ${cityVal}. Hope you enjoy ${hobbyVal} while you're here!`;
 
     // 🔥 Make the form expand visually
     document.querySelector(".application").classList.add("active");
